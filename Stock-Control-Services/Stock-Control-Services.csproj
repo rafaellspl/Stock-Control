@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Stock_Control_Services</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Stock-Control-Domain\Stock-Control-Domain.csproj" />
+    <ProjectReference Include="..\Stock-Control-Infrastructure\Stock-Control-Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
